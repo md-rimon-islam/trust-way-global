@@ -3,7 +3,7 @@ import React from 'react'
 export default function Banner_section_1() {
   return (
     <div className='bg-[url(/images/layer-1.webp)] h-full w-full bg-cover bg-center'>
-        <div className='bg-[url(/images/layer-2.webp)] h-96 w-full  bg-center'>
+        <div className='bg-[url(/images/layer-2.webp)] h-[550px] w-full  bg-center'>
         <div>
             <div className='grid items-center justify-center py-20 gap-y-3'>
             <h1 className='text-7xl font-bold text-white text-center'>Trust Way Global</h1>
