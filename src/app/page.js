@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navbar from "./(components)/(Homepage)/Navbar";
 import Banner_section_1 from "./(components)/(Homepage)/(Section)/Banner_section_1";
 import Banner_section_2 from "./(components)/(Homepage)/(Section)/Banner_section_2";
+import Banner_section_3 from "./(components)/(Homepage)/(Section)/Banner_section_3";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
     <Navbar></Navbar>
     <Banner_section_1></Banner_section_1>
     <Banner_section_2></Banner_section_2>
+    <Banner_section_3></Banner_section_3>
    </div>
   );
 }
